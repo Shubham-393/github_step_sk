@@ -109,6 +109,26 @@ steps to upload my folders on my newly created repo
     git commit -m "Resolved merge conflicts"
     ```
 
+    It looks like your branch is in a detached HEAD state after the rebase, meaning your main branch is not properly checked out. To fix this:
+
+   1. Check out your main branch properly
+
+   git checkout main
+
+   If you see an error like error: pathspec 'main' did not match any file(s) known to git, try:
+
+   git branch
+  
+   to check available branches and switch accordingly.
+
+   2. Pull the latest changes again
+   
+   git pull origin main --rebase
+  
+   3. Push the changes
+
+   git push origin main
+
 #### **Force Push (Use with Caution)**:
 - If you want to overwrite the remote repository entirely with your local changes:
   ```bash
