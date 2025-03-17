@@ -111,9 +111,9 @@ steps to upload my folders on my newly created repo
 
     It looks like your branch is in a detached HEAD state after the rebase, meaning your main branch is not properly checked out. To fix this:
 
-   1. Check out your main branch properly
+   - Check out your main branch properly
 
-   git checkout main
+    git checkout main
 
    If you see an error like error: pathspec 'main' did not match any file(s) known to git, try:
 
