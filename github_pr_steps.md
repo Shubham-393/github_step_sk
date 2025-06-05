@@ -4,6 +4,30 @@ A step-by-step guide to collaborate on a group project by **forking a friend's r
 
 ---
 
+
+## 📁 Optional Files for Better Collaboration
+- `README.md` → Project overview
+- `CONTRIBUTING.md` → Guidelines to contribute
+- `.gitignore` → Ignore unnecessary files
+- `requirements.txt` or `environment.yml` → Dependencies
+
+---
+
+## 📌 Commands Reference Table
+
+| Task                              | Command/Instruction                                         |
+|-----------------------------------|-------------------------------------------------------------|
+| Fork repo                         | Use GitHub UI – Click **Fork**                              |
+| Clone your fork                   | `git clone <your-fork-url>`                                 |
+| Add upstream                      | `git remote add upstream <friend's repo>`                   |
+| Create new branch                 | `git checkout -b branch-name`                               |
+| Pull latest from upstream         | `git pull upstream main`                                    |
+| Commit changes                    | `git add .` <br> `git commit -m "your message"`             |
+| Push changes                      | `git push origin branch-name`                               |
+| Create pull request               | Use GitHub UI after pushing branch                          |
+
+---
+
 ## ✅ 1. Fork the Friend’s Repository
 - Visit your friend's GitHub repository.
 - Click the **"Fork"** button (top-right corner).
@@ -96,27 +120,5 @@ Each time:
 
 ---
 
-## 📁 Optional Files for Better Collaboration
-- `README.md` → Project overview
-- `CONTRIBUTING.md` → Guidelines to contribute
-- `.gitignore` → Ignore unnecessary files
-- `requirements.txt` or `environment.yml` → Dependencies
-
----
-
-## 📌 Commands Reference Table
-
-| Task                              | Command/Instruction                                         |
-|-----------------------------------|-------------------------------------------------------------|
-| Fork repo                         | Use GitHub UI – Click **Fork**                              |
-| Clone your fork                   | `git clone <your-fork-url>`                                 |
-| Add upstream                      | `git remote add upstream <friend's repo>`                   |
-| Create new branch                 | `git checkout -b branch-name`                               |
-| Pull latest from upstream         | `git pull upstream main`                                    |
-| Commit changes                    | `git add .` <br> `git commit -m "your message"`             |
-| Push changes                      | `git push origin branch-name`                               |
-| Create pull request               | Use GitHub UI after pushing branch                          |
-
----
 
 Happy coding! 🎯
