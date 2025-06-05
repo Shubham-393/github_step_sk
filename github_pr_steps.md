@@ -4,15 +4,6 @@ A step-by-step guide to collaborate on a group project by **forking a friend's r
 
 ---
 
-
-## 📁 Optional Files for Better Collaboration
-- `README.md` → Project overview
-- `CONTRIBUTING.md` → Guidelines to contribute
-- `.gitignore` → Ignore unnecessary files
-- `requirements.txt` or `environment.yml` → Dependencies
-
----
-
 ## 📌 Commands Reference Table
 
 | Task                              | Command/Instruction                                         |
@@ -120,5 +111,13 @@ Each time:
 
 ---
 
+
+## 📁 Optional Files for Better Collaboration
+- `README.md` → Project overview
+- `CONTRIBUTING.md` → Guidelines to contribute
+- `.gitignore` → Ignore unnecessary files
+- `requirements.txt` or `environment.yml` → Dependencies
+
+---
 
 Happy coding! 🎯
